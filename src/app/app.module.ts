@@ -10,6 +10,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
+import { ProductListComponent } from './pages/product-list/product-list.component';
+import { ProductCardComponent } from './pages/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MatMenuModule } from '@angular/material/menu';
     NavbarComponent,
     HomePageComponent,
     NotFoundComponent,
-    ProductsPageComponent
+    ProductsPageComponent,
+    ProductListComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
