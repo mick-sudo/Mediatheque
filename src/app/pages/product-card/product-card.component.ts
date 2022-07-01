@@ -10,7 +10,6 @@ export class ProductCardComponent implements OnInit {
   @Input()
   data: any;
 
-
   constructor() {
   }
 
