@@ -1,11 +1,11 @@
-<div class="card d-inline-flex p-2" style="width: 18rem;">
+<div class="card d-flex justify-content-between" style="width: 18rem;">
   <img *ngIf='data.img != ""' src="{{data.img}}" class="card-img-top" alt="...">
   <img *ngIf='data.img == ""' src="../assets/images/chuck.jpg" class="card-img-top" alt="...">
   <div class="card-body ">
     <h2 class="card-title">{{ data.real }}</h2>
     <h2 class="card-title">{{ data.artiste }}</h2>
     <h4 class="card-title">{{ data.annee }}</h4>
-    <h3 *ngIf='data.nom' class="card-title">{{data.nom}}</h3>
+    <h3 class="card-title">{{data.nom}}</h3>
     <p class="card-text">{{ data.synopsis }}</p>
   </div>
 </div>
