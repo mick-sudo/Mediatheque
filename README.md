@@ -1,7 +1,9 @@
 # Mediatheque
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+
 Boostrap v5.2.
+
 Projet mediatheque dans le cadre de la formation M2I.
 ## Development server
 
